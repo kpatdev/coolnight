@@ -3,10 +3,11 @@
 <div align="center">
    <img src="coolnight-theme/screenshots/screenshot.png" alt="VSCode Screenshot" width="600">
 
-   <img src="warp/screenshots/screenshot.png" alt="Warp Screenshot" width="400">
+   <img src="warp/screenshots/screenshot.png" alt="Warp Screenshot" width="600">
 </div>
 
 ## Description
+
 This repository contains the Coolnight theme for Warp Terminal and Visual Studio Code. Originally created by [Josean](https://github.com/josean-dev) for Alacritty, WezTerm, and iTerm2, this theme has been extended to enhance your coding experience across these additional environments.
 
 ## Installation
