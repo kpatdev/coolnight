@@ -2,7 +2,7 @@
   "name": "coolnight-theme",
   "displayName": "Coolnight Theme",
   "description": "This is a beautiful dark theme for Visual Studio Code inspired by Aura and originally made by Josean.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "kpatdev",
   "engines": {
     "vscode": "^1.97.0"
