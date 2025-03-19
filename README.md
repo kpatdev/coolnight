@@ -3,7 +3,7 @@
 <div align="center">
    <img src="coolnight-theme/screenshots/screenshot.png" alt="VSCode Screenshot" width="600">
 
-   <img src="warp/screenshots/screenshot.png" alt="Warp Screenshot" width="500">
+   <img src="warp/screenshots/screenshot.png" alt="Warp Screenshot" width="400">
 </div>
 
 ## Description
