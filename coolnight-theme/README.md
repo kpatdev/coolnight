@@ -1,8 +1,8 @@
-![VSCode Screenshot](screenshots/screenshot.png)
+![VSCode Screenshot](https://github.com/kpatdev/coolnight/blob/4f1a3be34876778330c3b0fc2d0378b6b7a102c8/coolnight-theme/screenshots/screenshot.png?raw=true)
 
 # Coolnight Theme for VSCode
 
-This is a beautiful dark theme for Visual Studio Code. The theme was inspired by [Aura](https://github.com/daltonmenezes/aura-theme) and was originally created by [Josean](https://github.com/josean-dev) for Alacritty, WezTerm, and iTerm2. I adapted the theme for myself for VS Code and thought it may be useful to other VS Code users as well.
+This is a beautiful dark theme for Visual Studio Code. The theme was inspired by [Aura](https://github.com/daltonmenezes/aura-theme) and was originally created by [Josean](https://github.com/josean-dev) for Alacritty, WezTerm, and iTerm2. I adapted the theme for for VS Code and thought it may be useful to other users as well.
 
 ## Installation
 
