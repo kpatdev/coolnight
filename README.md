@@ -1,4 +1,4 @@
-# Coolnight Theme for Warp Terminal and VSCode
+# Coolnight Theme for Warp Terminal, VSCode, OpenChamber, and OpenCode
 
 <div align="center">
    <img src="coolnight-theme/screenshots/screenshot.png" alt="VSCode Screenshot" width="600">
@@ -8,7 +8,7 @@
 
 ## Description
 
-This repository contains the Coolnight theme for Warp Terminal and Visual Studio Code. Originally created by [Josean](https://github.com/josean-dev) for Alacritty, WezTerm, and iTerm2, this theme has been extended to enhance your coding experience across these additional environments.
+This repository contains the Coolnight theme for Warp Terminal, Visual Studio Code, OpenChamber, and OpenCode. Originally created by [Josean](https://github.com/josean-dev) for Alacritty, WezTerm, and iTerm2, this theme has been extended to enhance your coding experience across these additional environments.
 
 ## Installation
 
@@ -39,8 +39,44 @@ This repository contains the Coolnight theme for Warp Terminal and Visual Studio
 
 3. Load the theme in Warp:
    - Open Warp Terminal.
-   - Go to ⚙️ Settings > Appearance > Themes.
-   - Find and select `Coolnight` from the list.
+    - Go to ⚙️ Settings > Appearance > Themes.
+    - Find and select `Coolnight` from the list.
+
+### OpenChamber
+
+1. Create the OpenChamber themes directory:
+
+   ```bash
+   mkdir -p ~/.config/openchamber/themes
+   ```
+
+2. Copy the OpenChamber theme file:
+
+   ```bash
+   cp openchamber/themes/coolnight.json ~/.config/openchamber/themes/
+   ```
+
+3. Load the theme in OpenChamber:
+   - Go to `Settings` > `Theme` > `Reload themes`.
+   - Select `Coolnight` from the theme dropdown.
+
+### OpenCode
+
+1. Create the OpenCode themes directory:
+
+   ```bash
+   mkdir -p ~/.config/opencode/themes
+   ```
+
+2. Copy the OpenCode theme file:
+
+   ```bash
+   cp opencode/themes/coolnight.json ~/.config/opencode/themes/
+   ```
+
+3. Load the theme in OpenCode:
+   - Run `/theme` and select `coolnight`.
+   - Or set it in `tui.json` with `"theme": "coolnight"`.
 
 ## Contributing
 
