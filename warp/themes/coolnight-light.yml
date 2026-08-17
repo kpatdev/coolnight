@@ -1,0 +1,24 @@
+name: Coolnight Light
+background: '#F3F7FA'
+accent: '#0E9A62'
+foreground: '#011423'
+details: lighter
+terminal_colors:
+  bright:
+    black: '#4A6578'
+    red: '#D42020'
+    green: '#0C8A68'
+    yellow: '#C49212'
+    blue: '#6D46E0'
+    magenta: '#C13BC8'
+    cyan: '#0A8CA8'
+    white: '#011423'
+  normal:
+    black: '#214969'
+    red: '#D42020'
+    green: '#0C8A68'
+    yellow: '#C49212'
+    blue: '#0284B8'
+    magenta: '#6D46E0'
+    cyan: '#0A8CA8'
+    white: '#4A6578'

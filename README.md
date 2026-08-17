@@ -1,4 +1,4 @@
-# Coolnight Theme for Warp Terminal, VSCode, OpenChamber, and OpenCode
+# Coolnight Theme for Warp Terminal, VSCode, OpenChamber, OpenCode, and T3 Code
 
 <div align="center">
    <img src="coolnight-theme/screenshots/screenshot.png" alt="VSCode Screenshot" width="600">
@@ -8,7 +8,9 @@
 
 ## Description
 
-This repository contains the Coolnight theme for Warp Terminal, Visual Studio Code, OpenChamber, and OpenCode. Originally created by [Josean](https://github.com/josean-dev) for Alacritty, WezTerm, and iTerm2, this theme has been extended to enhance your coding experience across these additional environments.
+This repository contains the Coolnight theme for Warp Terminal, Visual Studio Code, OpenChamber, OpenCode, and T3 Code. Originally created by [Josean](https://github.com/josean-dev) for Alacritty, WezTerm, and iTerm2, this theme has been extended to enhance your coding experience across these additional environments.
+
+Each port includes **Coolnight** (dark) and **Coolnight Light**.
 
 ## Installation
 
@@ -20,7 +22,7 @@ This repository contains the Coolnight theme for Warp Terminal, Visual Studio Co
 
 3. Apply the theme:
    - Go to `Preferences` > `Color Theme` (`Ctrl + K` followed by `Ctrl + T` or `⌘ + K` followed by `⌘ + T` on macOS).
-   - Select `Coolnight` from the list.
+   - Select `Coolnight` or `Coolnight Light` from the list.
 
 ### Warp Terminal
 
@@ -31,16 +33,17 @@ This repository contains the Coolnight theme for Warp Terminal, Visual Studio Co
    cd coolnight
    ```
 
-2. Copy the Warp theme file:
+2. Copy the Warp theme files:
 
    ```bash
-   cp warp/themes/coolnight.yml ~/.warp/themes
+   cp warp/themes/coolnight.yml warp/themes/coolnight-light.yml ~/.warp/themes
    ```
 
 3. Load the theme in Warp:
    - Open Warp Terminal.
-    - Go to ⚙️ Settings > Appearance > Themes.
-    - Find and select `Coolnight` from the list.
+   - Go to ⚙️ Settings > Appearance > Themes.
+   - Find and select `Coolnight` or `Coolnight Light` from the list.
+   - Optional: enable **Sync with OS** and assign Coolnight to dark mode and Coolnight Light to light mode.
 
 ### OpenChamber
 
@@ -50,15 +53,15 @@ This repository contains the Coolnight theme for Warp Terminal, Visual Studio Co
    mkdir -p ~/.config/openchamber/themes
    ```
 
-2. Copy the OpenChamber theme file:
+2. Copy the OpenChamber theme files:
 
    ```bash
-   cp openchamber/themes/coolnight.json ~/.config/openchamber/themes/
+   cp openchamber/themes/coolnight.json openchamber/themes/coolnight-light.json ~/.config/openchamber/themes/
    ```
 
 3. Load the theme in OpenChamber:
    - Go to `Settings` > `Theme` > `Reload themes`.
-   - Select `Coolnight` from the theme dropdown.
+   - Select `Coolnight` or `Coolnight Light` from the theme dropdown.
 
 ### OpenCode
 
@@ -77,6 +80,22 @@ This repository contains the Coolnight theme for Warp Terminal, Visual Studio Co
 3. Load the theme in OpenCode:
    - Run `/theme` and select `coolnight`.
    - Or set it in `tui.json` with `"theme": "coolnight"`.
+   - The theme follows OpenCode's dark/light appearance.
+
+### T3 Code
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/kpatdev/coolnight.git
+   cd coolnight
+   ```
+
+2. Copy the contents of `t3code/themes/coolnight.json`.
+
+3. In T3 Code, open **Settings → Themes → Import theme**, paste the JSON, and confirm.
+
+The imported theme includes both dark and light variants and follows T3 Code's appearance setting.
 
 ## Contributing
 

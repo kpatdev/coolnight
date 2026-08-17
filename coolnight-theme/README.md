@@ -2,7 +2,7 @@
 
 # Coolnight Theme for VSCode
 
-This is a beautiful dark theme for Visual Studio Code. The theme was inspired by [Aura](https://github.com/daltonmenezes/aura-theme) and was originally created by [Josean](https://github.com/josean-dev) for Alacritty, WezTerm, and iTerm2. I adapted the theme for for VS Code and thought it may be useful to other users as well.
+This is a Coolnight theme pair for Visual Studio Code: **Coolnight** (dark) and **Coolnight Light**. The theme was inspired by [Aura](https://github.com/daltonmenezes/aura-theme) and was originally created by [Josean](https://github.com/josean-dev) for Alacritty, WezTerm, and iTerm2. I adapted the theme for VS Code and thought it may be useful to other users as well.
 
 ## Installation
 
@@ -12,7 +12,7 @@ This is a beautiful dark theme for Visual Studio Code. The theme was inspired by
 
 3. Apply the theme:
    - Go to `Preferences` > `Color Theme` (`Ctrl + K` followed by `Ctrl + T` or `⌘ + K` followed by `⌘ + T` on macOS).
-   - Select `Coolnight` from the list.
+   - Select `Coolnight` or `Coolnight Light` from the list.
 
 ## Contributing
 
